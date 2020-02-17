@@ -1,8 +1,11 @@
 .offer {
 	background: url('../img/offer/offer-bg.jpg');
 	background-repeat: no-repeat;
-	background-position: center right;
+	background-position:  top right;
+	background-size: contain;
 	position: relative;
+	padding-top: 57px;	
+	padding-bottom: 90px;
 	&:before {
 		content: '';
 		width: 50%;
@@ -21,7 +24,7 @@
 	&__title {
 		max-width: 360px;
 		line-height: 35px;
-		margin-bottom: 24px;
+		margin-bottom: 19px;
 	}
 	&__subtitle {
 		max-width: 250px;
@@ -39,6 +42,24 @@
 		width: 100%;
 		min-height: 70px;
 	}
+	&-contacts {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 30px;
+		&__text {
+			max-width: 235px;
+			font-size: 15px;
+			margin: 0;
+			line-height: 24px;
+		}
+		&__link {
+			text-decoration: none;
+			display: block;
+			.bold;
+			color: @text-color;
+			cursor: pointer;
+		}
+	}
 }
 @media (max-width: 1200px) {
 	.offer {
@@ -49,6 +70,11 @@
 		}
 		&__button {
 			font-size: 13px;
+		}
+		&-contacts {
+			&__link {
+				font-size: 14px;
+			}
 		}
 	}
 }

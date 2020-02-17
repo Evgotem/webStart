@@ -79,7 +79,7 @@ img {
 }
 .input {
   border: 1px solid #dddddd;
-  padding: 20px 26px;
+  padding: 23px 26px;
   font-size: 15px;
   border-radius: 10px;
   outline: none;
@@ -145,7 +145,7 @@ img {
   }
 }
 .hero {
-  padding: 50px 0 30px;
+  padding-top: 50px;
   background-color: #f5f5f5;
 }
 .hero-block {
@@ -154,9 +154,8 @@ img {
   display: flex;
 }
 .hero-text {
-  -ms-flex-preferred-size: 48%;
-      flex-basis: 48%;
-  padding-right: 100px;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
   font-family: 'Museo Sans Light';
 }
 .hero-text__title {
@@ -170,6 +169,8 @@ img {
   font-size: 20px;
   margin-bottom: 70px;
   display: inline-block;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
 }
 .hero-list {
   margin: 0;
@@ -188,8 +189,8 @@ img {
   margin-bottom: 0;
 }
 .hero-list__image {
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   border: 2px solid #ffd200;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -202,6 +203,7 @@ img {
           justify-content: center;
   border-radius: 50%;
   margin-right: 30px;
+  margin-left: 5px;
 }
 .hero-list__text {
   max-width: 300px;
@@ -243,8 +245,11 @@ img {
 .offer {
   background: url('../img/offer/offer-bg.jpg');
   background-repeat: no-repeat;
-  background-position: center right;
+  background-position: top right;
+  background-size: contain;
   position: relative;
+  padding-top: 57px;
+  padding-bottom: 90px;
 }
 .offer:before {
   content: '';
@@ -263,7 +268,7 @@ img {
 .offer__title {
   max-width: 360px;
   line-height: 35px;
-  margin-bottom: 24px;
+  margin-bottom: 19px;
 }
 .offer__subtitle {
   max-width: 250px;
@@ -281,6 +286,29 @@ img {
   width: 100%;
   min-height: 70px;
 }
+.offer-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+.offer-contacts__text {
+  max-width: 235px;
+  font-size: 15px;
+  margin: 0;
+  line-height: 24px;
+}
+.offer-contacts__link {
+  text-decoration: none;
+  display: block;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
+  color: #333333;
+  cursor: pointer;
+}
 @media (max-width: 1200px) {
   .offer {
     background-size: cover;
@@ -291,6 +319,9 @@ img {
   }
   .offer__button {
     font-size: 13px;
+  }
+  .offer-contacts__link {
+    font-size: 14px;
   }
 }
 @media (max-width: 768px) {
