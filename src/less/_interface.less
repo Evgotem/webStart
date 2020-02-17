@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 body {
 	.reg;
 }
@@ -23,6 +26,33 @@ img {
 	border-radius: 10px;
 	background-color: @main-color;
 	border: none;
-	padding: 17px 30px;
-	font-weight: bold;
+	padding: 17px 25px;
+	.bold;
+	outline: none;
+	transition: background-color 0.3s;
+	&:hover {
+		background-color: lighten(@main-color, 20%);
+		cursor: pointer;
+		transition: 0.3s;
+	}
+	&:active {
+		background-color: darken(@main-color, 5%);
+	}
+}
+.section {
+	padding: 90px 0;
+	&-title {
+		font-size: 24px;
+		.bold;
+	}
+	&-subtitle {
+		font-size: 16px;
+	}
+}
+.input {
+	border: 1px solid @border-input;
+	padding: 20px 26px;
+	font-size: 15px;
+	border-radius: 10px;
+	outline: none;
 }
