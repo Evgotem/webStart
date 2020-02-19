@@ -466,6 +466,12 @@ img {
   -webkit-box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
           box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
 }
+.card:hover .card__link {
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
 .card:hover .card__image:before {
   opacity: 1;
 }

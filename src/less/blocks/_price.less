@@ -5,7 +5,7 @@
 	}
 	&__subtitle {
 		margin-bottom: 59px;
-		text-align: center;		
+		text-align: center;	
 	}
 	&__card {
 		margin-bottom: 30px;
@@ -16,6 +16,10 @@
 	border: 1px solid @border-card;	
 	transition: 0.3s;
 	&:hover {
+		.card__link {
+			animation-iteration-count: infinite;
+			animation-duration: 1.5s;
+		}
 		box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
 		.card__image:before {
 			opacity: 1;
