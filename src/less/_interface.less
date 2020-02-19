@@ -44,6 +44,7 @@ img {
 	&-title {
 		font-size: 24px;
 		.bold;
+		text-align: center;
 	}
 	&-subtitle {
 		font-size: 16px;
@@ -59,6 +60,8 @@ img {
 		border: 1px solid @main-color;
 	}
 }
+
+// Стрелка которая скроллит вверх
 .arrow-start {
 	position: fixed;
 	left: 100px;
@@ -84,6 +87,31 @@ img {
 	&:hover {
 		background-color: lighten(@main-color, 40%);
 		transition: 0.3s;
+		cursor: pointer;
+	}
+}
+@media (max-width: 1200px) {
+	.arrow-start {
+		left: 25px;
+		bottom: 25px;
+		width: 40px;
+		height: 40px;
+		&__item {
+		width: 10px;
+		height: 10px;
+		}
+	}
+}
+@media (max-width: 768px) {
+	.container {
+		max-width: 580px;
+		width: 90%
+	}
+}
+
+// стрелки для слайдера
+.arrows {
+	&__left,&__right {
 		cursor: pointer;
 	}
 }

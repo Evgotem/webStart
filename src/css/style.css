@@ -73,6 +73,7 @@ img {
   font-size: 24px;
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 700;
+  text-align: center;
 }
 .section-subtitle {
   font-size: 16px;
@@ -117,6 +118,28 @@ img {
   background-color: #fff6cc;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  cursor: pointer;
+}
+@media (max-width: 1200px) {
+  .arrow-start {
+    left: 25px;
+    bottom: 25px;
+    width: 40px;
+    height: 40px;
+  }
+  .arrow-start__item {
+    width: 10px;
+    height: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 580px;
+    width: 90%;
+  }
+}
+.arrows__left,
+.arrows__right {
   cursor: pointer;
 }
 .navbar {
@@ -304,6 +327,7 @@ img {
   max-width: 360px;
   line-height: 35px;
   margin-bottom: 19px;
+  text-align: left;
 }
 .offer__subtitle {
   max-width: 250px;
@@ -395,4 +419,28 @@ img {
   position: absolute;
   top: 0;
   right: 0;
+}
+.portfolio {
+  background: #f5f5f5 url('../img/portfolio/portfolio-pattern.png');
+  background-repeat: repeat-y;
+  background-position: center left;
+}
+.portfolio__title {
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.portfolio__arrows {
+  max-width: 120px;
+  margin: auto;
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.slider__image {
+  margin: auto;
 }
