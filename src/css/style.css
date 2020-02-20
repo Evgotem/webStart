@@ -162,6 +162,13 @@ img {
     padding-bottom: 60px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/_interface\.less}line{font-family:\00003118}}
+.error {
+  border: 1px solid red;
+  color: red;
+  margin-bottom: 10px;
+  display: inline-block;
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_navbar\.less}line{font-family:\000031}}
 .navbar {
   padding: 8px 0;
