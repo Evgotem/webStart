@@ -522,6 +522,10 @@ img {
 .slider__image {
   margin: auto;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_portfolio\.less}line{font-family:\0000321}}
+.slider__item {
+  outline: none;
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_price\.less}line{font-family:\000032}}
 .price__title {
   margin: auto;

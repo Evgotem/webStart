@@ -101,10 +101,11 @@
     					Оставьте заявку на разработку бесплатного дизайн-проекта!
     				</span>
     				<!-- /section-subtitle -->
-    				<form action="" class="form offer__form">
-    					<input type="text" class="input offer__input" placeholder="Ваше имя" required>
-    					<input type="tel" class="input offer__input" placeholder="Ваш телефон" required>
+    				<form id="offer__form" action="" class="form offer__form">
+    					<input type="text" name="username" class="input offer__input" placeholder="Ваше имя" required>
+    					<input type="tel" name="phone" class="input offer__input phone" placeholder="Ваш телефон" required>
     					<button class="button offer__button">Получить бесплатный дизайн-проект</button>
+    					
     				</form>
     				<!-- /.form offer__form -->
     				<div class="offer-contacts">
@@ -308,8 +309,9 @@
     						Для этого заполните форму ниже
     					</span>
     					<form action="#" id="brif-form">
-    						<input type="text" name="username" class="input brif__input" placeholder="Ваше имя" required>
-    						<input type="tel" name="phone" class="input brif__input phone" placeholder="Ваш телефон" required>
+    						<input type="text"  name="username" class="input brif__input"       placeholder="Ваше имя" required>
+    						<input type="tel"   name="phone"    class="input brif__input phone" placeholder="Ваш телефон" required>
+    						<input type="email" name="email"    class="input brif__input"       placeholder="Ваш email" required>
     						<button class="button brif__button">
     							Рассчитать стоимость
     						</button>
@@ -368,6 +370,10 @@
 					},
 					phone: {
 						required: true
+					},
+					email: {
+						required: true,
+						email: true
 					}
 				},
 				messages: {
@@ -377,6 +383,10 @@
 					},
 					phone: {
 						required: "Укажите телефон"
+					},
+					email: {
+						required: "Введите верный email",
+						email: jQuery.validator.format("Введите верный email")
 					}
 				}
 			});
