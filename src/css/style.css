@@ -96,78 +96,90 @@ img {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/_interface\.less}line{font-family:\0000356}}
 .arrow-start {
   position: fixed;
-  left: 100px;
-  bottom: 100px;
-  width: 50px;
-  height: 50px;
-  border: 3px solid #ffd200;
+  margin-left: 10px;
+  bottom: 20px;
+  width: 35px;
+  height: 35px;
+  border: 3px solid #ffed99;
   border-radius: 50%;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/_interface\.less}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/_interface\.less}line{font-family:\0000368}}
 .arrow-start__item {
   position: absolute;
   top: 50%;
   left: 50%;
   display: block;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   -webkit-transform: translate(-50%, -25%) rotate(45deg);
           transform: translate(-50%, -25%) rotate(45deg);
   background-color: transparent;
-  border-left: 3px solid #ffd200;
-  border-top: 3px solid #ffd200;
+  border-left: 3px solid #ffed99;
+  border-top: 3px solid #ffed99;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/_interface\.less}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/_interface\.less}line{font-family:\0000381}}
 .arrow-start:hover {
-  background-color: #fff6cc;
+  background-color: #999999;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/_interface\.less}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/_interface\.less}line{font-family:\0000387}}
+.show {
+  opacity: 1;
+  visibility: visible;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/_interface\.less}line{font-family:\0000395}}
 .arrows__left,
 .arrows__right {
   cursor: pointer;
 }
 @media (max-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/_interface\.less}line{font-family:\0000395}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/_interface\.less}line{font-family:\00003102}}
   .container {
     width: 760px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/_interface\.less}line{font-family:\0000398}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/_interface\.less}line{font-family:\00003105}}
   .arrow-start {
-    left: 25px;
-    bottom: 25px;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/_interface\.less}line{font-family:\00003103}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/_interface\.less}line{font-family:\00003108}}
   .arrow-start__item {
     width: 10px;
     height: 10px;
   }
 }
 @media (max-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/_interface\.less}line{font-family:\00003110}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/_interface\.less}line{font-family:\00003115}}
   .container {
     max-width: 580px;
     width: 90%;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/_interface\.less}line{font-family:\00003114}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/_interface\.less}line{font-family:\00003119}}
   .section {
-    padding-bottom: 60px;
+    padding-bottom: 30px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/_interface\.less}line{font-family:\00003122}}
+  .arrow-start {
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/_interface\.less}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/_interface\.less}line{font-family:\00003130}}
 .error {
   border: 1px solid red;
   color: red;
-  margin-bottom: 10px;
-  display: inline-block;
+  display: block;
+  max-width: 200px;
+  margin: 0px auto 15px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_navbar\.less}line{font-family:\000031}}
 .navbar {
