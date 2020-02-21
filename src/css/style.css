@@ -830,3 +830,130 @@ img {
     margin-top: 0;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_steps\.less}line{font-family:\000031}}
+.steps {
+  padding-top: 30px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_steps\.less}line{font-family:\000034}}
+.steps-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_steps\.less}line{font-family:\000039}}
+.steps-wrap:after {
+  content: url(../img/steps/arrow-step.png);
+  position: absolute;
+  top: -12px;
+  right: -62px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_steps\.less}line{font-family:\0000315}}
+.steps-wrap:last-child:after {
+  content: '';
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_steps\.less}line{font-family:\0000319}}
+.steps__title {
+  margin: 0 auto;
+  font-size: 30px;
+  max-width: 660px;
+  line-height: 45px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_steps\.less}line{font-family:\0000325}}
+.steps__subtitle {
+  margin-top: 50px;
+  font-size: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_steps\.less}line{font-family:\0000329}}
+.steps__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 70px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_steps\.less}line{font-family:\0000336}}
+.steps__item {
+  border: 3px solid #ffd200;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_steps\.less}line{font-family:\0000345}}
+.steps__description {
+  display: block;
+  max-width: 170px;
+  font-size: 14px;
+  margin-top: 30px;
+  line-height: 20px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
+}
+@media (max-width: 1200px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_steps\.less}line{font-family:\0000358}}
+  .steps-wrap {
+    width: 30%;
+    margin-bottom: 50px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_steps\.less}line{font-family:\0000361}}
+  .steps-wrap:after {
+    content: '';
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_steps\.less}line{font-family:\0000364}}
+  .steps-wrap:last-child {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 768px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_steps\.less}line{font-family:\0000371}}
+  .steps {
+    padding-top: 70px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_steps\.less}line{font-family:\0000373}}
+  .steps-wrap {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_steps\.less}line{font-family:\0000377}}
+  .steps__list {
+    margin-top: 30px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_steps\.less}line{font-family:\0000380}}
+  .steps__title {
+    font-size: 18px;
+    max-width: 250px;
+    line-height: 16px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_steps\.less}line{font-family:\0000385}}
+  .steps__subtitle {
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_steps\.less}line{font-family:\0000389}}
+  .steps__description {
+    font-size: 12px;
+    margin-top: 15px;
+    max-width: 130px;
+  }
+}
