@@ -961,9 +961,10 @@ img {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_desc\.less}line{font-family:\000031}}
 .desc {
+  padding: 80px 0;
   background-color: #ffc000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_desc\.less}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_desc\.less}line{font-family:\000034}}
 .desc__title {
   font-size: 32px;
   text-align: center;
@@ -972,22 +973,22 @@ img {
   margin: 0 auto;
 }
 @media (max-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_desc\.less}line{font-family:\0000314}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_desc\.less}line{font-family:\0000315}}
   .desc {
     padding: 50px 0;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_desc\.less}line{font-family:\0000316}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_desc\.less}line{font-family:\0000317}}
   .desc__title {
     font-size: 24px;
     max-width: 90%;
   }
 }
 @media (max-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_desc\.less}line{font-family:\0000324}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_desc\.less}line{font-family:\0000325}}
   .desc {
     padding: 30px 0;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_desc\.less}line{font-family:\0000326}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_desc\.less}line{font-family:\0000327}}
   .desc__title {
     font-size: 18px;
     -ms-flex-preferred-size: 90%;
@@ -1015,15 +1016,15 @@ img {
   max-height: 410px;
   margin: 0 auto 33px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_advantages\.less}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_advantages\.less}line{font-family:\0000316}}
 .advantages__item:last-child {
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_advantages\.less}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_advantages\.less}line{font-family:\0000320}}
 .advantages__image {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_advantages\.less}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_advantages\.less}line{font-family:\0000323}}
 .advantages__text {
   position: absolute;
   z-index: 10;
@@ -1033,14 +1034,86 @@ img {
   padding: 0 25px;
 }
 @media (max-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_advantages\.less}line{font-family:\0000333}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_advantages\.less}line{font-family:\0000334}}
   .advantages {
     padding: 70px 0;
   }
 }
 @media (max-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_advantages\.less}line{font-family:\0000342}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_advantages\.less}line{font-family:\0000340}}
   .advantages {
     padding: 60px 0;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_advantages\.less}line{font-family:\0000342}}
+  .advantages__text {
+    font-size: 12px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_warranty\.less}line{font-family:\000031}}
+.warranty {
+  padding-top: 20px;
+  padding-bottom: 180px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_warranty\.less}line{font-family:\000034}}
+.warranty__title {
+  text-align: center;
+  max-width: 652px;
+  margin: 0 auto;
+  font-size: 30px;
+  line-height: 45px;
+  margin-bottom: 90px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_warranty\.less}line{font-family:\0000314}}
+.warranty__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_warranty\.less}line{font-family:\0000321}}
+.warranty__item {
+  margin-bottom: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_warranty\.less}line{font-family:\0000323}}
+.warranty__item:last-child {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_warranty\.less}line{font-family:\0000327}}
+.warranty__image {
+  margin-bottom: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_warranty\.less}line{font-family:\0000330}}
+.warranty__description {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  max-width: 310px;
+  margin: 0 auto;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_warranty\.less}line{font-family:\0000349}}
+  .warranty__description {
+    font-size: 14px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_warranty\.less}line{font-family:\0000352}}
+  .warranty__image {
+    margin-bottom: 30px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_warranty\.less}line{font-family:\0000355}}
+  .warranty__item {
+    margin-bottom: 40px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_warranty\.less}line{font-family:\0000357}}
+  .warranty__item:last-child {
+    margin-bottom: 0;
   }
 }
