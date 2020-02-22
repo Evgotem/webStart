@@ -972,7 +972,11 @@ img {
   margin: 0 auto;
 }
 @media (max-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_desc\.less}line{font-family:\0000315}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_desc\.less}line{font-family:\0000314}}
+  .desc {
+    padding: 50px 0;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_desc\.less}line{font-family:\0000316}}
   .desc__title {
     font-size: 24px;
     max-width: 90%;
@@ -980,9 +984,63 @@ img {
 }
 @media (max-width: 768px) {
   @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_desc\.less}line{font-family:\0000324}}
+  .desc {
+    padding: 30px 0;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_desc\.less}line{font-family:\0000326}}
   .desc__title {
     font-size: 18px;
     -ms-flex-preferred-size: 90%;
         flex-basis: 90%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_advantages\.less}line{font-family:\000032}}
+.advantages__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_advantages\.less}line{font-family:\0000310}}
+.advantages__item {
+  position: relative;
+  max-width: 370px;
+  max-height: 410px;
+  margin: 0 auto 33px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_advantages\.less}line{font-family:\0000315}}
+.advantages__item:last-child {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_advantages\.less}line{font-family:\0000319}}
+.advantages__image {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_advantages\.less}line{font-family:\0000322}}
+.advantages__text {
+  position: absolute;
+  z-index: 10;
+  font-size: 16px;
+  max-width: 295px;
+  line-height: 23px;
+  padding: 0 25px;
+}
+@media (max-width: 1200px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_advantages\.less}line{font-family:\0000333}}
+  .advantages {
+    padding: 70px 0;
+  }
+}
+@media (max-width: 768px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_advantages\.less}line{font-family:\0000342}}
+  .advantages {
+    padding: 60px 0;
   }
 }
