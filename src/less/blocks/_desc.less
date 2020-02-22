@@ -4,5 +4,27 @@
 		font-size: 32px;
 		text-align: center;
 		line-height: 50px;
+		max-width: 920px;
+		margin: 0 auto;
 	}
+}
+
+// адаптив
+@media (max-width: 1200px) {
+	.desc {	
+		&__title {
+			font-size: 24px;
+			max-width: 90%;
+		}
+	}
+}
+	
+@media (max-width: 768px) {
+	.desc {	
+		&__title {
+			font-size: 18px;
+			flex-basis: 90%;
+		}
+	}
+
 }
