@@ -774,7 +774,7 @@ img {
   }
   @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_brif\.less}line{font-family:\0000390}}
   .brif__form {
-    padding-left: 30px;
+    padding-left: 0;
   }
   @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_brif\.less}line{font-family:\0000394}}
   .interview {
@@ -1178,4 +1178,44 @@ img {
       -ms-flex-align: start;
           align-items: flex-start;
   margin-bottom: 39px;
+}
+@media (max-width: 1200px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_footer\.less}line{font-family:\0000347}}
+  .contacts {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 768px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_footer\.less}line{font-family:\0000352}}
+  .map {
+    position: static;
+    width: 100%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_footer\.less}line{font-family:\0000356}}
+  .contacts {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 40px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_footer\.less}line{font-family:\0000360}}
+  .contacts__title {
+    margin-bottom: 50px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_footer\.less}line{font-family:\0000363}}
+  .contacts-block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 50px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/webStart\/src\/less\/blocks\/_footer\.less}line{font-family:\0000368}}
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
