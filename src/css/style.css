@@ -663,7 +663,7 @@ img {
   background-image: url(../img/brif/brif-bg.jpg), url(../img/brif/form-bg.jpg);
   background-position: left center, center right;
   background-size: 50%, contain;
-  background-repeat: repeat-y, no-repeat;
+  background-repeat: repeat-y, repeat-x;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/WebStart\/src\/less\/blocks\/_brif\.less}line{font-family:\000037}}
 .brif-block {
@@ -775,7 +775,7 @@ img {
   }
   @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/WebStart\/src\/less\/blocks\/_brif\.less}line{font-family:\0000390}}
   .brif__form {
-    padding-left: 30px;
+    padding-left: 0px;
   }
   @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Евгений\/Desktop\/projects\/WebStart\/src\/less\/blocks\/_brif\.less}line{font-family:\0000394}}
   .interview {
