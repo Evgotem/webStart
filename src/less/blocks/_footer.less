@@ -1,43 +1,63 @@
 .footer {
-	position: relative;
+  display: flex;
 }
 .map {
-	width: 50%;
-	position: absolute;
-	left: 0;
-	top: 0;
+  flex-basis: 50%;
 }
 .contacts {
-	flex-basis: 50%;
-	padding-top: 100px;
-	padding-left: 200px;
-	&__title {
-		font-size: 22px;
-		line-height: 1.4;
-		margin-bottom: 100px;
-		.bold;
-	}
-	&__link {
-		color: @text-color;
-	}
-	&-block {
-		display: flex;
-		justify-content: flex-end;
-	}
-	&-list {
-		padding: 0;
-		list-style: none;
-		&__icon {
-			width: 20px;
-			height: 20px;
-			line-height: 20px;
-			text-align: center;
-			margin-right: 23px;
-		}
-		&__item {
-			display: flex;
-			align-items: flex-start;
-			margin-bottom: 39px;
-		}
-	}
+  flex-basis: 50%;
+  padding-top: 0px;
+  padding-left: 0px;
+  text-align: center;
+  max-width: 350px;
+  margin: 0 auto;
+  padding-top: 50px;
+  &__title {
+    font-size: 22px;
+    line-height: 1.4;
+    margin-bottom: 100px;
+    .bold;
+  }
+  &__link {
+    color: @text-color;
+  }
+  &-block {
+    width: 50%;
+  }
+  &-list {
+    padding: 0;
+    list-style: none;
+    &__icon {
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      text-align: center;
+      margin-right: 23px;
+    }
+    &__item {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 39px;
+    }
+  }
+}
+
+// адаптив
+@media (max-width: 1200px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+  .map {
+    width: 100%;
+  }
+  .contacts {
+    &__title {
+      margin-bottom: 60px;
+    }
+    &-list {
+      text-align: left;
+    }
+  }
 }
